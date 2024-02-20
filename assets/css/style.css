@@ -1,0 +1,61 @@
+/* Universal selectors */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Element selectors */
+body {
+  background-color: beige;
+  color: #5c4033;
+  text-align: center;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  border-bottom: 5px solid #c4a484;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last child {
+  margin-right: 0;
+}
+
+main {
+  padding: 50px;
+}
+
+form {
+  background-color: #c4a484;
+  width: 100%;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+footer {
+  border-bottom: 5px solid #5c4033;
+}
+
+/* Class selectors */
+.bg-green {
+  background-color: darkgreen;
+  color: beige;
+}
